@@ -1,0 +1,51 @@
+/* TableComponent.css */
+.emp-table{
+
+   background-color: darkslategrey;
+    height: 100vh;
+    
+}
+
+.employee-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+  
+  .employee-table th, .employee-table td {
+   
+    padding: 8px;
+    text-align: left;
+  }
+  .employee-table th{
+    color:white;
+  }
+  .employee-table td{
+    color: #ddd;
+    height: 60px;
+  }
+  
+  
+  
+  .employee-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+ 
+  .my-buttons{
+    display: flex;
+    gap: 5px;
+    
+  }
+  .vieww,.editt,.delett{
+    text-decoration: none;
+    color: #ddd;
+    border: 2px solid black;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+   
+
+    
+  }
+  

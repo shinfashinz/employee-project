@@ -1,0 +1,27 @@
+.view-img img{
+     width: 20%;
+}
+.view-main{
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.641)),url(../HOME/bussiness-people-working-team-office_1303-22863.avif);
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.view-other-details,.view-name-email{
+    color: white;
+    
+   
+}
+.view-name-emai{
+    margin-left: 30%;
+}
+.view-other-details{
+    margin-top: 50px;
+}
+.view-other-details th,td{
+   padding-left: 250px;
+   padding-top: 50px;
+  
+}
